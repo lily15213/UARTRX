@@ -24,4 +24,8 @@ del *.iex /s
 del *.htm /s
 del *.sct /s
 del *.map /s
+del *.uvguix.* /s
+::del *.uvoptx /s  ::保留调试器配置（ST-Link下载设置）
+del *.hex /s
+del *.bin /s
 exit
